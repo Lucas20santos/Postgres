@@ -90,6 +90,14 @@ simbolo | aplicação
 
 > operadores_comparacao.sql
 
-### Operador de comparação
+### Operador BETWEEN e intervalos em consultas SQL
 
 visualizar intervalos de dados
+
+> between.sql
+
+### Cláusula UPDATE - Atualizar dados inseridos nas tabelas
+
+Atualizar registros em tabelas
+
+> update.sql
