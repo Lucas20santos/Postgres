@@ -46,3 +46,11 @@ macaddr | 6 bytes (48 bits), como 00:22:33:44:55:b2 ou 0022.3344.55b2
 Geometric Types | Armazena informações relacionadas com figuras geometricas, como linhas, círculos, polígonos, pontos, caminhos, etc.
 tipos de Enumeração | crados pelo usuário, para conjuntos de valores estáticos
 tsvector / tsquery | Tipos para busca completa de texto em documentos.
+
+## Criando Tabela com o comando create table
+
+> arquivo criando_tabelas.sql
+
+## Inserindo dados na tabela com o comando insert into
+
+> arquivo inserido_dados_nas_tabelas.sql
