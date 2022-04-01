@@ -79,4 +79,13 @@ Permite obter uma parte especificada das linhas retornadas por uma consulta sql
 
 É usado para retornar um valor booleano, quando comparados dois valores.
 
+simbolo | aplicação
+:-----: | --------
+">"     | maior que
+"<"     | menor que
+">="    | maior ou igual
+"<="    | menor ou igaul
+"="     | igual
+"<>" ou != | diferente
+
 > operadores_comparacao.sql
