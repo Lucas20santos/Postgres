@@ -23,3 +23,26 @@ Tipos | Aplicação
 text  | varchar de tamanho ilimitado. Tipo preferido para strings.
 char(n), character(n) | caracteres de tamanho fixo, com padding (preenchimento) e n caracteres.
 varchar(n) | varchar de tamanho ilimitado a até n caracteres.
+
+### Tipos de Data e Hora
+
+Tipo | Aplicação
+---- | ---------------------------------------------------------
+date | 4 bytes, apenas datas, precisão de 1 dia
+time [without time zone] | 8 bytes, hora sem fuso horário, com precisão de 1 microssegundo
+time with time zone | 12 bytes, armazena data e hora com fuso horário, precisã de 1 microsegundos
+timestamp with time zone | 8 bytes, armazena data e hora com fuso horário, precisão de 1 microsegundos
+timestamp [without time zone] | 8 bytes, armazena data e hora sem fuso horário, precisão de 1 microssegundo
+interval | 16 bytes, armazena faixas de tempo, com precisão de 1 microsegundos
+
+### Outros Tipos em PostgreSQL
+
+Tipo | Aplicação
+---- | ---------
+boolean | Tipo lógico; 8 bits (1 byte) - Valores True (1 / yes/ on) ou False (0/ no/ off)
+cidr | 7 ou 19 bytes - endereços de redes IPv4 ou IPv6, como 192.168.14.0/24
+inet | 7 ou 19 bytes - endereços de hosts IPv4 ou IPv6, como 192.168.14.22/32
+macaddr | 6 bytes (48 bits), como 00:22:33:44:55:b2 ou 0022.3344.55b2
+Geometric Types | Armazena informações relacionadas com figuras geometricas, como linhas, círculos, polígonos, pontos, caminhos, etc.
+tipos de Enumeração | crados pelo usuário, para conjuntos de valores estáticos
+tsvector / tsquery | Tipos para busca completa de texto em documentos.
