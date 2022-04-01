@@ -47,10 +47,16 @@ Geometric Types | Armazena informações relacionadas com figuras geometricas, c
 tipos de Enumeração | crados pelo usuário, para conjuntos de valores estáticos
 tsvector / tsquery | Tipos para busca completa de texto em documentos.
 
-## Criando Tabela com o comando create table
+## Comandos no Postgres
+
+### Criando Tabela com o comando create table
 
 > arquivo criando_tabelas.sql
 
-## Inserindo dados na tabela com o comando insert into
+### Inserindo dados na tabela com o comando insert into
 
 > arquivo inserido_dados_nas_tabelas.sql
+
+### Consultas simples
+
+> consulta_simples.sql
