@@ -89,3 +89,7 @@ simbolo | aplicação
 "<>" ou != | diferente
 
 > operadores_comparacao.sql
+
+### Operador de comparação
+
+visualizar intervalos de dados
