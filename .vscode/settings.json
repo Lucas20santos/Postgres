@@ -6,7 +6,7 @@
             "port": 5432,
             "driver": "PostgreSQL",
             "name": "postgres",
-            "database": "postgres",
+            "database": "banco_teste",
             "password": "123456",
             "username": "postgres"
         }
