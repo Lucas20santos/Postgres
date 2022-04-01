@@ -68,3 +68,15 @@ tsvector / tsquery | Tipos para busca completa de texto em documentos.
 ### Ordernar resultados de consultas com ORDER BY
 
 > order_by.sql
+
+### LIMIT e OFFSET - Limitar resultados de consultas
+
+Permite obter uma parte especificada das linhas retornadas por uma consulta sql
+
+> limit_e_offset.sql
+
+### Operadores de Comparação
+
+É usado para retornar um valor booleano, quando comparados dois valores.
+
+> operadores_comparacao.sql
