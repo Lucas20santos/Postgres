@@ -64,3 +64,7 @@ tsvector / tsquery | Tipos para busca completa de texto em documentos.
 ### Como filtrar consultas com a cláusula WHERE no PostgreSQL
 
 > filtro_where.sql
+
+### Ordernar resultados de consultas com ORDER BY
+
+> order_by.sql
